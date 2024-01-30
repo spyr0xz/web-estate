@@ -1,11 +1,5 @@
-
-
 const App = () => {
-  return (
-    <div>
-      There will be web-estate app
-    </div>
-  )
-}
+  return (<div className="app">There will be web-estate app</div>);
+};
 
-export default App
+export default App;

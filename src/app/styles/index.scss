@@ -1,2 +1,17 @@
 @import './reset.scss';
-@import 'variables/global.scss'
+@import 'variables/global.scss';
+
+.app {
+  font: var(--font-m);
+  background-color: #F5F7FA;
+  min-height: 100vh;
+}
+
+.content-page {
+  display: flex;
+}
+
+.page-wrapper {
+  flex-grow: 1;
+  padding: 20px;
+}
