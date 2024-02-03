@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 type Mods = Record<string, boolean | string>;
 
-export default function classNames(
+export function classNames(
   cls: string,
   mods: Mods = {},
   additional: string[] = []
