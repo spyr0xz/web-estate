@@ -10,7 +10,11 @@ interface NavbarProps {
 
 const Navbar = ({className} : NavbarProps) => {
   return (
-    <div className={classNames(cls.Navbar, {}, [className])}>Navbar</div>
+    <div className={classNames(cls.Navbar, {}, [className])}>
+      <div className={cls.logo}>
+
+      </div>
+    </div>
     
   )
 }
