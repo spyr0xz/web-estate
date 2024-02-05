@@ -16,6 +16,12 @@ const Navbar = ({className} : NavbarProps) => {
       <div className={cls.logo}>
         <img src={logo} alt="" />
       </div>
+      <div className={cls.items}>
+        
+      </div>
+      <div className={cls.btns}>
+        
+      </div>
     </div>
     
   )
