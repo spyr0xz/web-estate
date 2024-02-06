@@ -1,3 +1,9 @@
 {
-  
+  "Rent": "Rent",
+  "Sell": "Sell",
+  "Manage propety": "Manage Property",
+  "Buy": "Buy",
+  "Resources": "Resources",
+  "Login": "Login",
+  "Sign Up": "Sign Up"
 }

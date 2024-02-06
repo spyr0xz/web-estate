@@ -1,0 +1,26 @@
+.content {
+  display: flex;
+  padding: 26px 56px;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+
+.items {
+  display: flex;
+  gap: 32px;
+}
+
+.link {
+  transition: all .3s ease-in-out;
+}
+
+.active {
+  color: var(--secondary-purple);
+  font-weight: 700;
+}
+
+.btns {
+  display: flex;
+  gap: 24px;
+}
